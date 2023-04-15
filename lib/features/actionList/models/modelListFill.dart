@@ -36,5 +36,10 @@ class ActionRepository {
             "Multiplying a matrix a by a scalar k is done by multiplying each element of the matrix by k.",
         routeStr: "/matrix_scalar_multiply",
         picRoute: 'assets/svg/scalarSign.svg'),
+    const Action(
+        actionName: 'Logarifk',
+        actionDescription: 'Log n and d',
+        routeStr: '/log',
+        picRoute: 'assets/svg/scalarSign.svg'),
   ];
 }

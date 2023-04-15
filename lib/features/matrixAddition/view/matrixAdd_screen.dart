@@ -13,6 +13,15 @@ class _MatrixAdditionState extends State<MatrixAddition> {
 
   final _rowsController = TextEditingController();
 
+  String? actName;
+  @override
+  void didChangeDependencies() {
+    final args = ModalRoute.of(context)?.settings.arguments;
+    assert(args != null && args is String, 'You must provide String args');
+    actName = args as String;
+    super.didChangeDependencies();
+  }
+
   List<List<int>> _createEmptyMatrix(int rows) {
     List<List<int>> matrix = [];
     for (int i = 0; i < rows; i++) {
@@ -63,8 +72,9 @@ class _MatrixAdditionState extends State<MatrixAddition> {
 
   @override
   Widget build(BuildContext context) {
+    final theme = Theme.of(context);
     return Scaffold(
-      appBar: AppBar(title: Text('Matrix Addition')),
+      appBar: AppBar(title: Text(actName ?? '...')),
       body: Padding(
         padding: const EdgeInsets.all(16.0),
         child: Column(
@@ -128,7 +138,7 @@ class _MatrixAdditionState extends State<MatrixAddition> {
               },
               child: Text(
                 'Add Matrices',
-                style: TextStyle(color: Colors.black),
+                style: theme.textTheme.labelSmall,
               ),
             ),
           ],

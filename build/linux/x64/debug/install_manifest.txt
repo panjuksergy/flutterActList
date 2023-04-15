@@ -8,6 +8,7 @@
 /home/zirael/Documents/flutterProject/vertKursach/calc_kpi/build/linux/x64/debug/bundle/data/flutter_assets/assets/svg/scalarSign.svg
 /home/zirael/Documents/flutterProject/vertKursach/calc_kpi/build/linux/x64/debug/bundle/data/flutter_assets/assets/svg/plusSign.svg
 /home/zirael/Documents/flutterProject/vertKursach/calc_kpi/build/linux/x64/debug/bundle/data/flutter_assets/assets/svg/minusSign.svg
+/home/zirael/Documents/flutterProject/vertKursach/calc_kpi/build/linux/x64/debug/bundle/data/flutter_assets/assets/svg/logSign.svg
 /home/zirael/Documents/flutterProject/vertKursach/calc_kpi/build/linux/x64/debug/bundle/data/flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf
 /home/zirael/Documents/flutterProject/vertKursach/calc_kpi/build/linux/x64/debug/bundle/data/flutter_assets/fonts/MaterialIcons-Regular.otf
 /home/zirael/Documents/flutterProject/vertKursach/calc_kpi/build/linux/x64/debug/bundle/data/flutter_assets/shaders/ink_sparkle.frag

@@ -19,6 +19,12 @@ class ActionRepository {
         routeStr: "/factorial",
         picRoute: 'assets/svg/factSign.svg'),
     const Action(
+        actionName: 'Logarithm',
+        actionDescription:
+            'Logarithmizes an expression with different bases, including the natural logarithm with base "e"',
+        routeStr: '/log',
+        picRoute: 'assets/svg/logSign.svg'),
+    const Action(
         actionName: "Matrix addition",
         actionDescription:
             "Addition matrix with equal sum of rows and columns?",
@@ -35,11 +41,6 @@ class ActionRepository {
         actionDescription:
             "Multiplying a matrix a by a scalar k is done by multiplying each element of the matrix by k.",
         routeStr: "/matrix_scalar_multiply",
-        picRoute: 'assets/svg/scalarSign.svg'),
-    const Action(
-        actionName: 'Logarifk',
-        actionDescription: 'Log n and d',
-        routeStr: '/log',
         picRoute: 'assets/svg/scalarSign.svg'),
   ];
 }

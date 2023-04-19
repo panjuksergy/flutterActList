@@ -42,5 +42,11 @@ class ActionRepository {
             "Multiplying a matrix a by a scalar k is done by multiplying each element of the matrix by k.",
         routeStr: "/matrix_scalar_multiply",
         picRoute: 'assets/svg/scalarSign.svg'),
+    const Action(
+        actionName: "Trigonometry calculator",
+        actionDescription:
+            "Calculate various trigonometric functions such as sine, cosine, tangent, cotangent, secant, and cosecant of an angle in degrees or radians. ",
+        routeStr: "/trig",
+        picRoute: 'assets/svg/trigSign.svg'),
   ];
 }
